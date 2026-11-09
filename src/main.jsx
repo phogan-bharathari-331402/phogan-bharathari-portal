@@ -3,7 +3,7 @@ import{createRoot}from"react-dom/client";
 import{createClient}from"@supabase/supabase-js";
 import{Menu, X, LogIn, LogOut, MessageSquareWarning, Lightbulb, HardHat, Megaphone}from"lucide-react";
 import"./style.css";
-const supabase=import.meta.env.VITE_SUPABASE_URL&&import.meta.env.VITE_SUPABASE_ANON_KEY?createClient(import.meta.env.VITE_SUPABASE_URL,import.meta.env.VITE_SUPABASE_ANON_KEY):null;
+const supabase=createClient("https://vgcyjmrmrjblhlwvzupu.supabase.co","sb_publishable_hD_lFmG_fbYxnYbghJlSTA_dbqTZDBC");
 function App(){
  const[session,setSession]=useState(null),[email,setEmail]=useState(""),[notice,setNotice]=useState(""),[tab,setTab]=useState("home"),[menu,setMenu]=useState(false),[works,setWorks]=useState([]),[news,setNews]=useState([]);
  useEffect(()=>{if(!supabase)return;supabase.auth.getSession().then(({data})=>setSession(data.session));const{data:{subscription}}=supabase.auth.onAuthStateChange((_,s)=>setSession(s));return()=>subscription.unsubscribe()},[]);
