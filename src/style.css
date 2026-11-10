@@ -7,3 +7,5 @@
 .loginbox .check{display:flex;align-items:center;gap:8px;font-weight:400;margin:12px 0}
 .loginbox .check input{width:auto}
 button:disabled{opacity:.6;cursor:wait}
+
+.official-entry{width:90%;max-width:1100px;margin:28px auto;padding:24px;background:#fff;border:1px solid #e2e9df;border-radius:16px}.official-entry h2{margin-top:0}.official-buttons{display:flex;gap:12px;flex-wrap:wrap}.official-entry button:disabled{background:#9aa79d}.role-tag{font-size:13px;font-weight:700;color:#17623b;background:#eaf2e9;padding:7px 10px;border-radius:20px}.official-panel article{background:white;padding:18px;border:1px solid #e4ebe2;border-radius:12px;margin:12px 0}.official-panel article select{display:block;margin-top:10px;padding:9px;border:1px solid #dce5db;border-radius:8px}.official-form{display:grid;gap:12px;background:white;padding:20px;border-radius:14px;margin:12px 0 30px}.official-form input,.official-form textarea,.official-form select{padding:12px;border:1px solid #dce5db;border-radius:9px;font:inherit}.official-form textarea{min-height:90px}
