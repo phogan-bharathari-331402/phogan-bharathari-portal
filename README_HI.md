@@ -1,4 +1,4 @@
-# फोगां भारथरी पोर्टल — Phogan Bharathari 331402
+# फोगां भरथरी पोर्टल — Phogan Bharathari 331402
 
 वेबसाइट: https://phogan-bharathari-331402.github.io/phogan-bharathari-portal/
 
